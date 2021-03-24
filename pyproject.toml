@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyramid_autowire"
+version = "0.1.0"
+description = "Dependency injection for pyramid views"
+authors = ["Nick Beeuwsaert"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+# The user is going to have these installed since they are using pyramid
+"zope.interface" = "*"
+pyramid = ">=1.5"
+
+# Not sure exactly what version of typing_extensions
+# we need, I know Annotated has been in for a while
+# but not documented
+typing-extensions = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
