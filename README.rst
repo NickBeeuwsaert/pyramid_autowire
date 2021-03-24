@@ -39,4 +39,4 @@
             # Fetch active user from the request data
             ...
 
-        registry.registerUtility(get_active_user, (IRequest, ), IUser)
+        registry.registerAdapter(get_active_user, (IRequest, ), IUser)
