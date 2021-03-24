@@ -2,6 +2,8 @@
 name = "pyramid_autowire"
 version = "0.1.0.dev0"
 description = "Dependency injection for pyramid views"
+readme = "README.rst"
+license = "MIT"
 authors = ["Nick Beeuwsaert"]
 
 [tool.poetry.dependencies]
