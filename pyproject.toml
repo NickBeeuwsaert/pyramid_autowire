@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyramid_autowire"
-version = "0.1.0"
+version = "0.1.0.dev0"
 description = "Dependency injection for pyramid views"
 authors = ["Nick Beeuwsaert"]
 
