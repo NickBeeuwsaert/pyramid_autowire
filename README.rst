@@ -1,8 +1,8 @@
-==================
-`pyramid_autowire`
-==================
+====================
+``pyramid_autowire``
+====================
 
-`pyramid_autowire` is a package that allows your pyramid views to use pyramids registry for dependency injection.
+``pyramid_autowire`` is a package that allows your pyramid views to use pyramids registry for dependency injection.
 
 .. code-block:: python
 
