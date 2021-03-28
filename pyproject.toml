@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyramid_autowire"
-version = "1.0.2"
+version = "1.0.3-alpha.0"
 description = "Dependency injection for pyramid views"
 readme = "README.rst"
 license = "MIT"
@@ -24,6 +24,8 @@ pyramid = ">=1.5"
 # we need, I know Annotated has been in for a while
 # but not documented
 typing-extensions = "^3.7.4"
+twine = "^3.4.1"
+build = "^0.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
