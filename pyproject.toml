@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyramid_autowire"
-version = "1.0.0"
+version = "1.0.1"
 description = "Dependency injection for pyramid views"
 readme = "README.rst"
 license = "MIT"
@@ -8,12 +8,13 @@ authors = ["Nick Beeuwsaert"]
 homepage = "https://github.com/NickBeeuwsaert/pyramid_autowire"
 classifiers = [
     "Framework :: Pyramid",
-    "Development Status :: 2 - Pre-Alpha",
-    "Intended Audience :: Developers"
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Framework :: Pyramid"
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 
 # The user is going to have these installed since they are using pyramid
 "zope.interface" = "*"
@@ -27,6 +28,7 @@ typing-extensions = "^3.7.4"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 pytest-cov = "^2.11.1"
+tox = "^3.23.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -1,7 +1,8 @@
 import inspect
-from functools import cached_property, partial
+from functools import partial
 from inspect import Parameter
 
+from .decorator import cached_property
 from .dependency_injection import _map_dependencies
 from .matchdict_injection import _map_matchdict
 
